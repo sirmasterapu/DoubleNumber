@@ -1,18 +1,8 @@
+import os
+List1 = [8, 9,3,6,1,10]
+List1.reverse()
+print("The reversed List is: ", List1)
+List2 = [91,67,120, 34, 76, 54, 78, 87, 56, 64, 345]
+List2.sort()
+print("The sorted List is: ", List2)
 
-number = 0
-
-converted = False
-while not converted:
-	userNumber = raw_input("Tel me a number. ")
-	
-	try:
-		userNumber = float(userNumber)
-		number = userNumber
-		
-	except ValueError:
-		print("not a number")
-	else:
-		converted = True
-
-
-print("Double that is {}".format(number * 2))
