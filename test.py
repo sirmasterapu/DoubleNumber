@@ -1,3 +1,3 @@
 from Tryaccept import *
 
-raise ValueError("Testing")
+print("it worked")
