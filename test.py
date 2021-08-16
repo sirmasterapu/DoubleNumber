@@ -1,3 +1,3 @@
-from Tryaccept.py import *
+from Tryaccept import *
 
 raise ValueError("Testing")
